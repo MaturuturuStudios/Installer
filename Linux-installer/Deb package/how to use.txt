@@ -1,0 +1,6 @@
+In a folder with the name of the package and its version (example: drop_0.4-1) simulate all the folder structure of the installation
+Add a DEBIAN folder inside, in which the files controls some information of the package. You need to adjust it (for example, the architecture of the package)
+stay at the parent of the package folder and execute the command:
+dpkg-deb --build drop_0.4-1
+
+The deb package will be created

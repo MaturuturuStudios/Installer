@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Drop
+Name[en]=Drop
+GenericName=Puzzle Game
+GenericName[en]=Puzzle Game
+GenericName[ca]=Videojoc de Plataformes
+Comment=Play a 2D puzzle/platform game
+Comment[en]=Play a 2D puzzle/platform game
+Icon=/usr/share/icons/hicolor/128x128/apps/maturuturu_drop.png
+Exec=/usr/local/bin/drop
+Terminal=false
+StartupNotify=false
+Categories=Game;
+Keywords=game;puzzle;platform;

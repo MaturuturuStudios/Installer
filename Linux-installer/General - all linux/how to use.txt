@@ -1,0 +1,14 @@
+Put into the folder file_maturuturu the makefile and the folder with the content of the application.
+Usually needs to update the executable with its data folder (all inside the folder will be installed on the system) and update the makefile with the name of the executable.
+
+When ready, execute the build script, a tar file, an encoded file and a installer script will be generated. Delete the tar and encoded file (temporal files) and the installer script is the one to be distributed.
+
+How the process work.
+The build script gets the folder file_maturuturu, compress it with the setup script, encode the package and append it to a copy of the script extract.sh
+
+The script extract will create a temporary folder and extract its content to it, then, execute the setup script inside the extracted content (remember both content and setup script was previously packed inside)
+
+The setup script is executed when the installer is executed and extracted to a temporary file. The file will come inside the extracted folder and execute the makefile.
+
+Inside the folder file_maturuturu, are the folder installation and the makefile.
+The folder installation has the final folder name in the system, and the makefile ask for the permissions, move the folder to its final place in the system, and create the neededs links by copying the elements inside the folder installation.

@@ -1,0 +1,11 @@
+Package: Drop
+Source: Drop
+Version: 0.4.1
+Section: games
+Priority: optional
+Architecture: i386
+Depends: 
+Maintainer: Maturuturu Studios <maturuturu.studios@gmail.com>
+Description: Drop by Maturuturu Studios
+ Help this little drop of water in his journer to the sea!
+
